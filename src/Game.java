@@ -11,7 +11,7 @@ public class Game {
         this.random = new SecureRandom();
         this.options = args;
         while(options.length%2 == 0 || options.length < 3) {
-            System.out.println("Incorrect arguments. Amount of arguments must be an odd number more >= 3.");
+            System.out.println("Incorrect arguments. Amount of arguments must be an odd number >= 3.");
             System.out.println("Example: scissors paper rock lizard Spock");
             System.out.print("Type again, please: ");
             String input = in.nextLine();
